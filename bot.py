@@ -25,14 +25,14 @@ async def on_message(message):
         await message.add_reaction(emoji)
     
 
-
-@bot.event
-async def on_reaction_add(reaction, user):
-    message = reaction.message
-    print(reaction.emoji)
-    if reaction.count >= 3:
-        if reaction.emoji == "👢":
-            await Guild.kick(member, reason="3 boots")
+#useless for now
+#@bot.event
+#async def on_reaction_add(reaction, user):
+#    message = reaction.message
+#    print(reaction.emoji)
+#    if reaction.count >= 3:
+#        if reaction.emoji == "👢":
+#            await Guild.kick(member, reason="3 boots")
 
 @bot.event
 async def on_member_remove(member):
