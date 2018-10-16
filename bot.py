@@ -17,7 +17,7 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     if message.mention_everyone == True:
-        await message.channel.send('fuck you')
+        await message.channel.send('fuck you.')
     if '<:dab:299028890180124672>' in message.content:
         await message.channel.send('dont dab in chat')
     if message.author.id == 171783855735308288:
