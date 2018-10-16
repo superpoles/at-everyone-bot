@@ -1,3 +1,3 @@
 # at-everyone-bot
 
-Simple bot, simple function.
+Simple bot, simple bot function
